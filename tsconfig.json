@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "target": "es2016",
+    "lib": ["es2016", "dom", "dom.iterable", "esnext"],
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "allowJs": true,
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true
+  },
+  "include": ["src", "types/index.d.ts"],
+  "exclude": ["node_modules", "dist", "compiled", "webpack"]
+}
